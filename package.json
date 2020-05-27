@@ -1,0 +1,24 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dliverani/background-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dliverani/background-generator/issues"
+  },
+  "homepage": "https://github.com/dliverani/background-generator#readme"
+}
